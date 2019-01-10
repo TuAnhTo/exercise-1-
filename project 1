@@ -1,0 +1,30 @@
+
+bai 1
+  //  Viết chương trình nhập điểm của một sinh viên cho các môn: 
+  Vật lý, Hóa học, và Sinh học.
+  Sau đó hiển thị điểm trung bình và tổng của những điểm này
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var a,b,c,TB,TONG;
+            a = parseInt(prompt("nhap diem mon ly"));
+            b = parseInt(prompt("nhap diem mon hoa"));
+            c = parseInt(prompt(" nhap diem mon sinh"));
+            TB = (a+b+c)/3;
+            TONG = a+b+c;
+            document.write(" diem trung binh ca ba mon la " +TB);
+            document.write("<br/>");
+            document.write(" diem tong ba mon la " +TONG);
+            document.write("<br/>");
+
+
+
+    </script>
+
+</body>
+</html>
