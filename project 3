@@ -1,0 +1,22 @@
+bai 4 
+tinh chu vi hinh tron 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+       var r , C;
+       r = parseInt(prompt(" nhap ban kinh hinh tron :"));
+       C = r * 2 * 3.14;
+       console.log( " chu vi hinh tron luc nay la :" +C);
+
+
+    </script>
+
+</body>
+</html>
