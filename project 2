@@ -1,0 +1,21 @@
+bai2 thay doi nhiet do 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var C,F;
+        c  = parseInt(prompt("nhap nhiet do c"));
+        F = (9 * c)/5 +32;
+        alert(" do F luc nay la : " +F);
+
+
+
+    </script>
+
+</body>
+</html>
