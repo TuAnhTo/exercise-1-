@@ -1,0 +1,21 @@
+bai 3 
+ tinh dien tich hinh tron 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+       var r,S ;
+       const PI = 3.14;
+       r = parseInt(prompt("nhap ban kinh duong tron :"));
+       S = PI * Math.pow(r, 2);
+       alert( " dien tich hinh tron la: " +S);
+
+
+    </script>
+
+</body>
+</html>
